@@ -5,7 +5,7 @@ meta {
 }
 
 post {
-  url: {{baseUrl}}/notes/{{noteId}}/tags
+  url: {{baseUrl}}/notes/2/tags
   body: json
   auth: none
 }
@@ -16,6 +16,6 @@ headers {
 
 body:json {
   {
-    "tagId": {{tagId}}
+    "tagId": 2
   }
 }
