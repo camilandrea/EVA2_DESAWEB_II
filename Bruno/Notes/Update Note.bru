@@ -1,0 +1,23 @@
+meta {
+  name: Update Note
+  type: http
+  seq: 4
+}
+
+patch {
+  url: {{baseUrl}}/notes/{{noteId}}
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "title": "Mi nota actualizada",
+    "content": "Contenido actualizado",
+    "categoryId": {{categoryId}}
+  }
+}

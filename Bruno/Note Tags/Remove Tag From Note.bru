@@ -1,0 +1,11 @@
+meta {
+  name: Remove Tag From Note
+  type: http
+  seq: 2
+}
+
+delete {
+  url: {{baseUrl}}/notes/{{noteId}}/tags/{{tagId}}
+  body: none
+  auth: none
+}

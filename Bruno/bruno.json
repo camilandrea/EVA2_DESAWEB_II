@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "EVA2 DESAWEB II - API de Notas",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
